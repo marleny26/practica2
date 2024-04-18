@@ -11,7 +11,7 @@ loginForm.addEventListener("submit", (e) => {
     window.location.href = "dashboard_profe.html";
   } else if (username === "student" && password === "password2") {
     // Redirect to student dashboard
-    window.location.href = "student-dashboard.html";
+    window.location.href = "dashboard_alumno.html";
   } else {
     alert("Invalid username or password");
   }
